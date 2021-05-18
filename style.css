@@ -40,7 +40,7 @@ body {
 
 main {
   width: 375px;
-  height: 600px;
+  height: 580px;
   margin: auto 0;
   border-radius: 10px;
   background-color: white;
@@ -74,7 +74,7 @@ header h2 {
 }
 
 article {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding-right: 20px;
   padding: 0 40px;
 }
@@ -90,7 +90,7 @@ aside {
   display: flex;
   align-items: center;
   padding: 0 40px;
-  height: 80px;
+  height: 85px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -123,6 +123,10 @@ aside .info span {
   margin-bottom: 3px;
 }
 
+aside .info .icon {
+  display: none;
+}
+
 aside .button {
   width: 20%;
   cursor: pointer;
@@ -150,4 +154,49 @@ aside .icon::before {
 
 aside.open {
   background-color: var(--gray-700);
+
+  height: 90px;
+}
+
+aside.open figure {
+  display: none;
+}
+
+aside.open .info {
+  display: none;
+}
+
+aside.open span {
+  display: none;
+}
+aside.open time {
+  display: none;
+}
+
+aside .icons {
+  display: none;
+}
+
+aside.open .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+}
+
+aside.open .button {
+  width: 30%;
+  cursor: pointer;
+}
+
+aside.open .icons p {
+  color: var(--gray300);
+  letter-spacing: 6px;
+  font-size: 0.93rem;
+}
+
+aside.open .icons img {
+  width: 25px;
+  cursor: pointer;
 }
