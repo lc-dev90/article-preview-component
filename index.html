@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
@@ -15,9 +14,7 @@
   </head>
   <body>
     <main>
-      <figure>
-        <img src="./images/drawers.jpg" alt="Drawers" />
-      </figure>
+      <figure class="header-image"></figure>
       <section>
         <header>
           <h2>
@@ -32,14 +29,17 @@
             you make any room feel complete.
           </p>
         </article>
-        <aside>
+        <aside class="open">
           <figure>
             <img src="./images/avatar-michelle.jpg" alt="Avatar Michelle" />
           </figure>
-          <details>
+          <div class="info">
             <span> Michelle Appleton </span>
-            <time>28 Jun 2020 Share</time>
-          </details>
+            <time>28 Jun 2020</time>
+          </div>
+          <div class="button">
+            <div class="icon"></div>
+          </div>
         </aside>
       </section>
     </main>
@@ -48,7 +48,12 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Luiz C.</a>
     </footer>
+    <script>
+      document.querySelector(".button").addEventListener("click", function (e) {
+        e.target.parentElement.parentElement.classList.toggle("open");
+      });
+    </script>
   </body>
 </html>
