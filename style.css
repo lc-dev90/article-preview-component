@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+:root {
+  /* ## Colors */
+  --gray-700: hsl(217, 19%, 35%);
+  --gray-500: hsl(214, 17%, 51%);
+  --gray300: hsl(212, 23%, 69%);
+  --gray100: hsl(210, 46%, 95%);
+
+  --main-fs: 0.813rem; /* Font size: 13px */
+
+  --large-fw: 700;
+  --medium-fw: 500;
+}
