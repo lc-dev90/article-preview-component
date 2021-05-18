@@ -13,6 +13,7 @@
   --gray-700: hsl(217, 19%, 35%);
   --gray-500: hsl(214, 17%, 51%);
   --gray300: hsl(212, 23%, 69%);
+  --gray300-: hsla(212, 23%, 69%, 0.4);
   --gray100: hsl(210, 46%, 95%);
 
   --main-fs: 0.813rem; /* Font size: 13px */
@@ -48,6 +49,7 @@ main {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 0px 10px 50px var(--gray300-);
 }
 
 figure.header-image {
