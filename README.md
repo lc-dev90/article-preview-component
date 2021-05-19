@@ -11,9 +11,6 @@ Article Preview Component
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Approach](#approach)
-- [Status](#status)
-- [Credits](#credits)
-- [License](#license)
 
 ## About The App
 
@@ -21,7 +18,10 @@ This is a challenge from Frontendmentor.io
 
 ## Screenshots
 
-`![Writing]()`
+`![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/1.png?raw=true)`
+`![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/2.png?raw=true)`
+`![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/3.png?raw=true)`
+`![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/4.png?raw=true)`
 
 ## Technologies
 
@@ -33,10 +33,4 @@ I used HTML CSS and JS
 
 ## Approach
 
-## Status
-
-## Credits
-
-List of contriubutors:
-
-## License
+Used Html5 semantic, CSS for styles (transforms, flexbox, media queries, etc)
