@@ -20,10 +20,10 @@ This is a challenge from Frontendmentor.io
 
 ## Screenshots
 
-`![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/1.png?raw=true)`
-`![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/2.png?raw=true)`
-`![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/3.png?raw=true)`
-`![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/4.png?raw=true)`
+![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/1.png?raw=true)
+![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/2.png?raw=true)
+![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/3.png?raw=true)
+![](https://github.com/lc-dev90/article-preview-component/blob/master/screenshots/4.png?raw=true)
 
 ## Technologies
 
