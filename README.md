@@ -4,6 +4,8 @@ Article Preview Component
 
 ## Demo link:
 
+https://musing-beaver-285156.netlify.app/
+
 ## Table of Content:
 
 - [About The App](#about-the-app)
