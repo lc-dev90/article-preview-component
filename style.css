@@ -235,7 +235,7 @@ aside.open .icons img {
     width: 800px;
     height: 280px;
     flex-direction: row;
-    overflow: hidden;
+    overflow: visible;
   }
 
   figure.header-image {
@@ -286,5 +286,95 @@ aside.open .icons img {
 
   .icon {
     transform: translateX(25px);
+  }
+
+  aside.open {
+    background-color: inherit;
+    transition: all 0.3s linear;
+    height: 85px;
+    position: relative;
+  }
+
+  aside.open figure {
+    display: flex;
+  }
+
+  aside.open .info {
+    display: block;
+  }
+
+  aside.open span {
+    display: block;
+  }
+
+  aside.open time {
+    display: block;
+  }
+
+  aside .icons {
+    display: none;
+  }
+
+  aside.open .icons {
+    position: absolute;
+    top: -55px;
+    right: -52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    width: 250px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: var(--gray-700);
+    z-index: 3;
+    box-shadow: 0 10px 10px var(--gray300-);
+  }
+
+  aside.open .icons::after {
+    content: "";
+    position: absolute;
+    background-color: var(--gray-700);
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  aside.open .icon {
+    background-color: var(--gray-500);
+    float: right;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    border-radius: 50px;
+    transform: translateX(-15px);
+  }
+
+  aside.open .icon::before {
+    content: "";
+    position: absolute;
+    transform: scale(0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./images/share.svg) no-repeat center center / cover;
+  }
+  aside.open .button {
+    width: 30%;
+    cursor: pointer;
+  }
+
+  aside.open .icons p {
+    color: var(--gray300);
+    letter-spacing: 6px;
+    font-size: 0.75rem;
+  }
+
+  aside.open .icons img {
+    width: 17px;
+    cursor: pointer;
   }
 }
