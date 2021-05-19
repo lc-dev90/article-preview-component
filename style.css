@@ -242,7 +242,8 @@ aside.open .icons img {
     width: 100%;
     height: 100%;
     background: url(./images/drawers.jpg) no-repeat center left / cover;
-    border-top-left-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     border-top-right-radius: 0;
   }
 
@@ -290,7 +291,6 @@ aside.open .icons img {
 
   aside.open {
     background-color: inherit;
-    transition: all 0.3s linear;
     height: 85px;
     position: relative;
   }
@@ -312,10 +312,13 @@ aside.open .icons img {
   }
 
   aside .icons {
-    display: none;
+    opacity: 0;
+    transition: all 1s linear;
   }
 
   aside.open .icons {
+    transition: all 1s ease-in-out;
+    opacity: 1;
     position: absolute;
     top: -55px;
     right: -52px;
@@ -362,6 +365,7 @@ aside.open .icons img {
     left: 0;
     background: url(./images/share.svg) no-repeat center center / cover;
   }
+
   aside.open .button {
     width: 30%;
     cursor: pointer;
